@@ -1,4 +1,5 @@
 import React from 'react';
+import heroPasti from "../assets/hero-pasti.png"
 
 const Hero = ({ onOrderClick, onStoryClick }) => {
   return (
@@ -32,7 +33,7 @@ const Hero = ({ onOrderClick, onStoryClick }) => {
 
       <div className="flex-1 flex justify-center">
         <img 
-          src="/hero-pasti.png" 
+          src={heroPasti}
           alt="Daily Dough Pastries" 
           className="w-full max-w-sm rounded-2xl shadow-lg"
         />

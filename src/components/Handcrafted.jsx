@@ -1,4 +1,5 @@
 import React from 'react';
+import handCrafted from "../assets/handcrafted.png"
 
 const Handcrafted = ({ showDescription = true }) => {
   return (
@@ -6,7 +7,7 @@ const Handcrafted = ({ showDescription = true }) => {
       {/* Left image */}
       <div className="flex-1">
         <img 
-          src="/handcrafted.png" 
+          src={handCrafted}
           alt="Handcrafted Process" 
           className="w-full rounded-3xl shadow-lg"
         />

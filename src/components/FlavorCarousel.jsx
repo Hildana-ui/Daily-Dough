@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import flavors from '../data/flavors';
 
+
 const FlavorCarousel = ({ itemsPerPage = 3 }) => {
   const [currentPage, setCurrentPage] = useState(0);
 
